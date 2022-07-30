@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="./resources/loader.css">
+    <link rel="stylesheet" href="./resources/responsive.css">
+    <link rel="stylesheet" href="./resources/style.css">
+
+    <title>UNIMETAL</title>
+</head>
+
+<body>
+
+    <nav class="nav-second">
+        <div class="container-fluid">
+            <div class="row nav-item">
+                <div class="col-lg-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+                        <h6>Əsl Metalın Ünvanı</h6>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="page-item">
+                        <a href="about.html">HAQQIMIZDA</a>
+                        <a href="product.html">MƏHSULLAR</a>
+                        <a href="production.html">İSTEHSAL</a>
+                        <a href="desing.html">DİZAYN EDİN</a>
+                        <a href="" class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            HESABLA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                            <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                        </ul>
+                        <a href="galery.html">QALERİYA</a>
+                        <a href="news.html">XƏBƏRLƏR</a>
+                        <a href="contact.html">ƏLAQƏ</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="fixed-menu">
+            <div class="fixMenu">
+                <div class="flag-btn">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                            </button>
+                </div>
+                <div class="back-to-top">
+                    <button id="toTop" onclick="topFunction()"><i class="fas fa-chevron-double-up"></i></button>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fas fa-phone-alt"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <a class="hoverShare" href=""><i class="fas fa-share-alt"></i></a>
+                    <div class="share-menu">
+                        <div class="whitediv">
+                            <i class="fas fa-at"></i>
+                        </div>
+                        <a href="">info@unimetal.az</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="Index">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+            <ul class="menu__box">
+                <li class="top-logo">
+
+                    <a href="index.html"> <img src="./resources/img/Logo.svg" alt=""></a>
+                    <div class="flag-btn">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                            </button>
+                    </div>
+                </li>
+                <li><a class="menu__item" href="about.html">HAQQIMIZDA</a></li>
+                <li><a class="menu__item" href="product.html">MƏHSULLAR</a></li>
+                <li><a class="menu__item" href="production.html">İSTEHSAL</a></li>
+                <li><a class="menu__item" href="desing.html">DİZAYN EDİN</a></li>
+                <li> <a href="" class="menu__item dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    HESABLA
+                </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                        <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                    </ul>
+                </li>
+                <li><a class="menu__item" href="galery.html">QALERİYA</a></li>
+                <li><a class="menu__item" href="news.html">XƏBƏRLƏR</a></li>
+                <li><a class="menu__item" href="contact.html">ƏLAQƏ</a></li>
+                <li class="social-hamburger"> <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a href=""><i class="fas fa-phone-alt"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Mobile-navbar Start -->
+
+    <!-- Mobile navbar End -->
+
+
+    <!-- eticet start -->
+    <div class="eticet">
+        <div class="eticet-item" style="margin-left: 0px !important;">
+            <h3>Hesabla</h3>
+        </div>
+    </div>
+    <!-- eticet end -->
+
+
+    <!-- Calculation Start -->
+    <section id="Calculation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div Class="button-wrap">
+                        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-1" role="tab">
+                                    <div class="title-btn">
+                                        <img src="./resources/img/hasarsiz home 1.png" alt="">
+                                    </div>
+                                    <div class="footer-btn">
+                                        <span>Shed</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-2" role="tab">
+                                    <div class="title-btn">
+                                        <img src="./resources/img/HomeB2.png" alt="">
+                                    </div>
+                                    <div class="footer-btn">
+                                        <span>Gable</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-3" role="tab">
+                                    <div class="title-btn">
+                                        <img src="./resources/img/HomeBt3.png" alt="">
+                                    </div>
+                                    <div class="footer-btn">
+                                        <span>Hip</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="homeImg">
+                                        <img src="./resources/img/shed.png" alt="">
+                                        <div class="ot" id="dvPassport" style="display: none">
+                                            <img src="./resources/img/hasar.png" alt="">
+                                        </div>
+                                    </div>
+                                    <button class="CheckEuropanel">
+                                        <label for="chkPassport">
+                                            <input type="checkbox" id="chkPassport" />
+                                            Europanel
+                                        </label>
+                                   </button>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="calculationForms">
+                                        <form action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Dam növü</label>
+                                                        <select name="" id="">
+                                                            <option value="">Adamante</option>
+                                                            <option value=""></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin küncündən olan məsafə (K)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin eni (E)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin uzunluğu (U)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Damın hündürlüyü (H)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <div class="total-calculation">
+                                                            <div class="total">
+                                                                <label for="">Nəticə</label>
+                                                                <input type="number">
+                                                            </div>
+                                                            <div class="bt-total">
+                                                                <button>Hesabla</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="homeImg">
+                                        <img src="./resources/img/Home2.png" alt="">
+                                        <div class="ot" id="dvPassport1" style="display: none">
+                                            <img src="./resources/img/hasar.png" alt="">
+                                        </div>
+                                    </div>
+                                    <button class="CheckEuropanel">
+                                        <label for="chkPassport1">
+                                            <input type="checkbox" id="chkPassport1" />
+                                            Europanel
+                                        </label>
+                                   </button>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="calculationForms">
+                                        <form action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Dam növü</label>
+                                                        <select name="" id="">
+                                                            <option value="">Adamante</option>
+                                                            <option value=""></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin küncündən olan məsafə (K)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin eni (E)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin uzunluğu (U)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Damın hündürlüyü (H)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <div class="total-calculation">
+                                                            <div class="total">
+                                                                <label for="">Nəticə</label>
+                                                                <input type="number">
+                                                            </div>
+                                                            <div class="bt-total">
+                                                                <button>Hesabla</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="homeImg HipHomeOt">
+                                        <img src="./resources/img/HipHomeCalc.png" alt="">
+                                        <div class="ot" id="dvPassport2" style="display: none">
+                                            <img src="./resources/img/hasar.png" alt="">
+                                        </div>
+                                    </div>
+                                    <button class="CheckEuropanel">
+                                        <label for="chkPassport2">
+                                            <input type="checkbox" id="chkPassport2" />
+                                            Europanel
+                                        </label>
+                                   </button>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="calculationForms">
+                                        <form action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Dam növü</label>
+                                                        <select name="" id="">
+                                                            <option value="">Adamante</option>
+                                                            <option value=""></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Damın pik hissəsinin uzunluğu (C)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin yan tərəfdən eni (B)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin yan tərəfdən uzunluğu (A)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin en tərəfindən dam pikinə uzanan hündürlüyü (H2)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <label for="">Evin uzunluq tərəfindən dam pikinə uzanan hündürlüyü (H1)</label>
+                                                        <input type="number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="inpForm">
+                                                        <div class="total-calculation">
+                                                            <div class="total">
+                                                                <label for="">Nəticə</label>
+                                                                <input type="number">
+                                                            </div>
+                                                            <div class="bt-total">
+                                                                <button>Hesabla</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Calculation End -->
+    <!-- Modal -->
+    <div class="modal fade" id="language" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Dil Seçin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                <span>Azerbaija</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/turkeyFlag.png" alt="">
+                                <span>Turkey</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Language Modal End-->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row pt-4 pb-2">
+                <div class="col-lg-12">
+                    <div class="footer-logo">
+                        <span>Bakı şəhəri, Z.Bünyadov prospekti 2061</span>
+                        <span>info@unimetal.az</span>
+                        <img src="./resources/img/Group 33.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer End  -->
+
+    <!-- Loader Start -->
+    <div id="loader-animation">
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1 b3">
+                    <div id="loader-wrap">
+                        <div id="loading">
+                            <div id="loading-center">
+                                <div id="loading-center-absolute">
+                                    <div id="object"><img src="./resources/img/Logo.svg" alt=""></div>
+                                    <div id="loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1">
+                    <div id="block-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./resources/loader.js"></script>
+    <script src="./resources/app.js"></script>
+</body>
+
+</html>

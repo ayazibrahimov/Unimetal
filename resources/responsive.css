@@ -1,0 +1,944 @@
+    @media only screen and (max-width:992px) {
+        .table-content {
+            width: 100% !important;
+            margin: 10px 0 !important;
+            text-align: center;
+        }
+        #AboutTitle .abouttitle-mb {
+            flex-direction: column-reverse !important;
+        }
+        .aboutTitle-img {
+            width: 100%;
+            margin-left: 0px !important;
+        }
+        .about-str-2 {
+            flex-direction: column-reverse !important;
+        }
+        .aboutTitle-img .container {
+            width: 80% !important;
+            display: grid;
+            grid-template-columns: none !important;
+            /* grid-template-rows: 1fr 0.5fr 0.9fr 1.6fr; */
+            gap: 10px 10px;
+            grid-template-areas: "div1 div2 . " "div1 div3 ." ". div3 ." ". . .";
+        }
+        .m-rotate {
+            display: flex;
+            justify-content: center;
+        }
+        #AboutTitle .aboutTitle-text {
+            text-align: center;
+        }
+        #AboutStrateji .strateji-img {
+            text-align: center !important;
+        }
+        #AboutStrateji .strateji-img img {
+            width: 40% !important;
+            height: auto;
+        }
+        #AboutStrateji .strateji-text {
+            text-align: center;
+            margin: 20px 0;
+        }
+        #Rotate .rotate-card-info {
+            background: linear-gradient(180deg, #4273EC 0%, #4A6AA5 100%);
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            width: 150px !important;
+            height: 150px !important;
+            border-radius: 50%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px 0 !important;
+        }
+        .hamburger-menu {
+            text-align: start;
+            height: 0;
+            display: block !important;
+        }
+        .contact-section .menu__box .top-logo {
+            position: absolute;
+            top: 0px;
+            left: 15px !important;
+            z-index: 2434;
+        }
+        .hamburger-menu img {
+            position: relative;
+            z-index: 4375486;
+            top: -9px;
+        }
+        .contact-section .hamburger-menu img {
+            position: relative;
+            z-index: 4375486;
+            top: -9px;
+            right: 0% !important;
+        }
+        .loc .location-contact {
+            margin: 10px 0;
+            padding: 10px 20px;
+            text-align: center;
+            border-right: none !important;
+            border-bottom: 2px solid #B6B6B6;
+        }
+        nav {
+            display: none;
+        }
+        .navbar .pages-item {
+            display: none !important;
+        }
+        .navbar .basket-img {
+            display: none !important;
+        }
+        .cc .contact {
+            display: none !important;
+        }
+        .navbar .logo img {
+            width: 20%;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        .search .drop {
+            display: none;
+        }
+        .product-card {
+            width: 100% !important;
+            height: auto;
+            padding: 0 25px !important;
+            border-radius: 30px;
+        }
+        .fixed-menu {
+            display: none;
+        }
+        .oakslider__ui {
+            position: relative;
+            z-index: 2000;
+            max-width: 1200px;
+            min-width: 60%;
+            margin: 0 auto;
+            margin-top: 10%;
+            display: flex;
+            /* flex-direction: row; */
+            align-items: flex-end;
+        }
+        .slide__content {
+            padding-top: 100px;
+            max-width: 1200px;
+            min-width: 60%;
+            margin: 0 10px;
+            font-family: sans-serif;
+        }
+        .map {
+            background-image: url(../resources/img/map-01\ 2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 97%;
+            height: 90vh;
+            position: relative;
+            margin: 2rem 0px 0px 45px;
+            border-radius: 65px 0px 0px 60px;
+        }
+        .map .overlay {
+            position: absolute;
+            z-index: 232;
+            background-color: rgb(0, 0, 0);
+            opacity: .4;
+            top: 0;
+            left: 0;
+            border-radius: 65px 0px 0px 60px;
+            width: 100%;
+            display: block !important;
+        }
+        .map .map-content {
+            display: flex;
+            flex-direction: column;
+            text-align: end;
+        }
+        .map-content h1 {
+            color: rgb(255, 255, 255);
+            position: relative;
+            z-index: 120000;
+        }
+        .map-content p {
+            position: relative;
+            z-index: 120000;
+            color: #fff;
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        #services {
+            margin-top: 15rem !important;
+        }
+        #services .services-text {
+            color: #333333;
+            font-size: 1.3rem;
+            font-weight: 300;
+            line-height: 35px;
+            margin-top: 100px;
+            text-align: center !important;
+        }
+        #unimetal {
+            margin-top: 1rem !important;
+        }
+        .img-video-btn {
+            display: flex;
+            justify-content: flex-start !important;
+            margin-top: 16rem !important;
+            /* margin-right: 8rem; */
+        }
+        .media-slider {
+            width: 100%;
+            height: auto;
+            padding-top: 2rem !important;
+        }
+        .items-slider-container {
+            max-width: 100%;
+            margin-top: 20rem !important;
+            height: 100%;
+            overflow: hidden;
+        }
+        .loc .location-contact .location-number {
+            display: flex;
+            flex-direction: column;
+            align-items: center !important;
+        }
+        #MetalCalculation .grafikImg {
+            width: 60% !important;
+            height: 100%;
+            background-color: #4472DF;
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            position: relative !important;
+            z-index: 45;
+            padding: 20px;
+            top: -20px !important;
+            left: 0px !important;
+            margin: auto !important;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .leftBarCalc {
+            margin-left: 0rem !important;
+        }
+        #MetalCalculation .calcLeft {
+            width: 60%;
+            margin: 10px 0 !important;
+        }
+        #MetalCalculation .kg {
+            border: none !important;
+        }
+        .metalC .tab-content {
+            margin-left: 10px;
+        }
+        #Desing .f-group .CheckEuropanel {
+            position: relative;
+            margin: 0 0px !important;
+            width: 100% !important;
+            padding: 15px;
+            top: 7px !important;
+            left: -5px !important;
+            border-radius: 25px;
+        }
+        #Calculation .button-wrap .nav-pills .nav-item {
+            width: 30% !important;
+            margin: 0 5px;
+        }
+        #Calculation .button-wrap .nav-pills {
+            width: 100% !important;
+            height: 100%;
+            display: flex;
+            flex-direction: unset !important;
+        }
+        #Calculation .button-wrap .title-btn img {
+            width: 75% !important;
+            padding: 20px !important;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        .slidere--el-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 2rem !important;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+        .eticet {
+            position: absolute;
+            top: 25%;
+            width: 245px !important;
+            height: 70px;
+            left: 0%;
+            clip-path: polygon(100% 0, 82% 48%, 100% 100%, 0 100%, 0% 50%, 0 0);
+            background: linear-gradient(180deg, #4273ED 0%, #4A6AA5 100%);
+            padding: 0 2px;
+        }
+        .slidere {
+            position: relative;
+            height: 50vh !important;
+            margin: 4rem 0;
+        }
+        #NewsTitle {
+            margin-top: 25rem !important;
+        }
+        .contact-section {
+            background-image: url(./img/Rectangle\ 101.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            text-align: center;
+            height: 70vh !important;
+        }
+        .contact-section .overlay {
+            position: absolute;
+            z-index: 232;
+            background-color: rgb(0, 0, 0);
+            opacity: .6;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70vh !important;
+        }
+        .contact-section .contact-content {
+            position: absolute;
+            z-index: 132141;
+            bottom: 40% !important;
+            left: 35% !important;
+        }
+        .radioBtnCalc .radioInp {
+            display: flex;
+            align-items: center;
+            border: 1px solid #4472DF;
+            padding: 5px 15px;
+            margin: 5px 10px !important;
+            border-radius: 20px;
+        }
+        .radioBtnCalc {
+            display: flex;
+            flex-wrap: wrap !important;
+            justify-content: center;
+        }
+        .button-wrap ul li {
+            width: 100% !important;
+            height: 100%;
+            margin: 5px 0;
+        }
+        .mbColor {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        #Calculation .tab-content .calculationForms {
+            margin: 0 !important;
+        }
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .table {
+            width: 100% !important;
+            margin: auto;
+        }
+        #MetalCalculation .calcLeft {
+            width: 100% !important;
+            margin: 30px 0;
+        }
+        .oakslider__ui {
+            position: relative;
+            z-index: 2000;
+            max-width: 1200px;
+            min-width: 60%;
+            margin: 0 auto;
+            margin-top: 100% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #rotator .content {
+            animation: inner-circle 25s linear infinite;
+            background: linear-gradient(180deg, #4273EC 0%, #4A6AA5 100%);
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            width: 100px !important;
+            height: 100px !important;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .owl-stage {
+            transition: all 0.4s ease 0s;
+            width: 3370px;
+            display: flex;
+            height: 150px !important;
+            transform: translate3d(-1310px, 0px, 0px);
+            align-items: center;
+        }
+        #Calculation .homeImg {
+            margin-bottom: 5rem !important;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+        #Calculation .CheckEuropanel {
+            position: absolute;
+            top: 77% !important;
+            right: 10%;
+            padding: 5px 10px !important;
+            color: #fff;
+            font-size: 16px !important;
+            background-color: #4473E2;
+            border-radius: 10px;
+        }
+        #Calculation .HipHomeOt .ot {
+            position: absolute;
+            z-index: 123;
+            top: 20px !important;
+            left: -10px !important;
+        }
+    }
+    
+    @media only screen and (max-width:460px) {
+        table tbody td {
+            height: 100px !important;
+        }
+        .button-wrap ul li {
+            width: 29% !important;
+            height: 100%;
+            margin: 5px 6px;
+        }
+        #Calculation .homeImg .ot {
+            position: absolute;
+            z-index: 123;
+            top: 36px !important;
+            left: -10px !important;
+        }
+        #Calculation .homeImg .ot img {
+            width: 100% !important;
+        }
+        #Calculation .homeImg img {
+            width: 70% !important;
+            z-index: 45555;
+        }
+        #MetalCalculation .kgSm {
+            display: none;
+            width: 90% !important;
+            margin: 30px auto;
+            text-align: center;
+            box-shadow: 0px 4px 15px 0px #0000001a inset;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        #Desing .homeImg .HomeDesingPosition .homeRelative img {
+            width: 70% !important;
+        }
+        #Desing .overlayRoof .roofType {
+            width: 70% !important;
+            position: absolute;
+            top: -2.3%;
+            left: 9.6% !important;
+        }
+        #Desing .overlayRoof .gable {
+            width: 70% !important;
+            position: absolute;
+            top: -5% !important;
+            left: 14.6% !important;
+        }
+        #Desing .overlayRoof .gable .overlayR {
+            position: absolute;
+            left: 2.2% !important;
+            top: -7.8% !important;
+            width: 100% !important;
+            mix-blend-mode: multiply;
+        }
+        #Desing .overlayRoof .hip {
+            width: 70% !important;
+            position: absolute;
+            top: -2.3%;
+            left: 14.6% !important;
+        }
+        #Desing .overlayRoof .hip .overlayR {
+            position: absolute;
+            left: -0.7% !important;
+            top: 0.7% !important;
+            width: 100% !important;
+            mix-blend-mode: multiply;
+        }
+        #Desing .homeImg .ot {
+            position: absolute;
+            z-index: 123;
+            top: 50px !important;
+            left: 15px;
+        }
+        #MetalCalculation .buttonKgHeight {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 85% !important;
+            background-color: #4472DF;
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            border-radius: 20px 20px 0 0;
+        }
+        .eticet {
+            position: absolute;
+            top: 25%;
+            width: 245px !important;
+            height: 70px;
+            left: 0%;
+            clip-path: polygon(100% 0, 82% 48%, 100% 100%, 0 100%, 0% 50%, 0 0);
+            background: linear-gradient(180deg, #4273ED 0%, #4A6AA5 100%);
+            padding: 0 2px;
+        }
+        .loc {
+            background-color: #fff;
+            border: 1px solid #4273ED40;
+            border-radius: 20px;
+            position: relative;
+            z-index: 140000;
+            width: 100%;
+            height: auto;
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            margin: -35px 0 0 0 !important;
+        }
+        .contact-section .contact-content {
+            position: absolute;
+            z-index: 132141;
+            bottom: 40% !important;
+            left: 30% !important;
+        }
+        .items-slider-container .slider-nav .slick-slide.current-slide .slider-nav-text {
+            line-height: 1 !important;
+            display: block;
+        }
+        .oakslider__nav {
+            display: none;
+        }
+        .oakslider__ui {
+            position: relative;
+            z-index: 2000;
+            max-width: 1200px;
+            min-width: 60%;
+            margin: 0 auto;
+            margin-top: 150% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .map {
+            background-image: url(../resources/img/map-01\ 2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100% !important;
+            height: auto !important;
+            padding: 30px 20px !important;
+            margin: 0 !important;
+            border-radius: 65px 0px 0px 60px;
+        }
+        .blog {
+            background-image: url(../resources/img/Vector\ 6\ \(1\).png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100% !important;
+        }
+        #rotator .content {
+            animation: inner-circle 25s linear infinite;
+            background: linear-gradient(180deg, #4273EC 0%, #4A6AA5 100%);
+            box-shadow: 0px 4px 15px 0px #0000001a;
+            width: 100px !important;
+            height: 100px !important;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #Blog .card {
+            display: flex;
+            height: 190px !important;
+            width: 100%;
+            border-radius: 10px;
+            /* box-shadow: -5px 0 2rem #000; */
+            box-shadow: 0px 4px 30px 0px #00000033;
+            transition: 0.4s ease-out;
+            left: 0px;
+            border: none;
+        }
+        #rotator {
+            width: 50% !important;
+            height: 250px !important;
+            margin: auto !important;
+            animation: circle 25s cubic-bezier(0, 0, 1, 1.02) infinite !important;
+            transform-origin: 50% 50% !important;
+        }
+        #services {
+            margin-top: 5rem !important;
+        }
+        #services .services-text {
+            color: #333333;
+            font-size: 1.3rem;
+            font-weight: 300;
+            line-height: 35px;
+            text-align: center !important;
+            margin-top: 50px !important;
+        }
+        .unimetal {
+            margin: 0 !important;
+        }
+        .slider img {
+            width: 170% !important;
+            height: 300px;
+            object-fit: cover;
+        }
+        .slide-text {
+            position: absolute;
+            top: 0 !important;
+            left: 10px !important;
+            width: 79% !important;
+        }
+        .slide-text h1 {
+            color: #fff;
+            font-weight: 500;
+            margin: 0px 0 !important;
+            font-size: 20px !important;
+        }
+        .slide-text h3 {
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px !important;
+        }
+        .slide-text .category-slide {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px !important;
+        }
+        .slide-text .category-slide span {
+            color: #fff;
+            margin: 0px 0 !important;
+            font-size: 14px !important;
+            font-weight: 300;
+        }
+        .items-slider-container .slider-for img {
+            max-width: 100%;
+            height: 250px !important;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+        .slidere--control.right {
+            right: 1rem !important;
+            text-align: center;
+            padding: 5px 10px !important;
+        }
+        .slidere--control {
+            z-index: 50;
+            position: absolute;
+            top: calc(50% - 2rem);
+            width: 2rem !important;
+            height: 2rem !important;
+            cursor: pointer;
+            background: #1D3980;
+            opacity: .7;
+            border-radius: 50%;
+        }
+        .slidere--control.right i {
+            color: #fff;
+            font-size: 20px !important;
+        }
+        .slidere--control.left {
+            left: 1rem !important;
+            text-align: center;
+            padding: 5px 10px !important;
+        }
+        .slidere--control {
+            z-index: 50;
+            position: absolute;
+            top: calc(50% - 2rem);
+            width: 2rem !important;
+            height: 2rem !important;
+            cursor: pointer;
+            background: #1D3980;
+            opacity: .7;
+            border-radius: 50%;
+        }
+        .slidere--control.left i {
+            color: #fff;
+            font-size: 20px !important;
+        }
+        .slidere {
+            position: relative;
+            height: 33vh !important;
+            margin: 4rem 0;
+        }
+        .slidere--el-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 8rem !important;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+        .slidere--el-heading h2 {
+            font-size: 26px !important;
+        }
+        .slidere--el-heading span {
+            font-size: 20px !important;
+        }
+        #NewsTitle .slick-list {
+            padding: 50px 60px !important;
+        }
+        #NewsTitle .center-slider .slick-slide {
+            background-color: #fff;
+            box-shadow: inherit !important;
+            color: #FFF;
+            border-radius: 10px;
+            height: auto;
+            margin: 0 0px 0 0 !important;
+            display: flex;
+            padding: 0 0 10px 0;
+            align-items: center;
+            justify-content: center;
+            transform: scale(0.8);
+            transition: all 0.4s ease-in-out;
+        }
+        #NewsTitle .slick-prev {
+            left: 115px !important;
+            top: 400px !important;
+        }
+        #NewsTitle .slick-next {
+            right: 115px !important;
+            top: 400px !important;
+        }
+        #NewsTitle .wrapper {
+            padding: 0px 0 !important;
+        }
+        #Desing .f-dropdown>span {
+            cursor: pointer;
+            padding: 3px 10px !important;
+            border-radius: 10px !important;
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: #bbb;
+            background: #fff;
+            border: 1px solid #4473E359;
+            transition: color 0.2s ease, border-color 0.2s ease;
+            box-shadow: 0px 4px 15px 0px #0000001a;
+        }
+        #Desing .f-group .CheckEuropanel {
+            position: relative;
+            margin: 0 0px !important;
+            width: 100% !important;
+            padding: 15px;
+            top: 22px !important;
+            left: -5px !important;
+            border-radius: 10px !important;
+        }
+        #Desing .f-dropdown ul li a {
+            cursor: pointer;
+            display: block;
+            padding: 5px 4px !important;
+            margin: 10px 0;
+            color: #000;
+            text-decoration: none;
+            outline: none;
+            position: relative;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+        }
+        #Desing .f-dropdown ul {
+            left: 3px !important;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm {
+            display: flex;
+            width: 100%;
+            flex-direction: column !important;
+            align-items: center;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm label {
+            width: 100% !important;
+            text-align: start !important;
+            margin: 0 10px;
+            color: #496DB7;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm select {
+            width: 100% !important;
+            border: 1px solid #4A6AA540;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: #496DB78C;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm input {
+            width: 100% !important;
+            border: 1px solid #4A6AA540;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 10px 0;
+            color: #496DB78C;
+        }
+        #Calculation .tab-content .calculationForms form .inpForm .total-calculation {
+            display: flex;
+            flex-direction: column !important;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        #Calculation .button-wrap .nav-pills {
+            width: 100% !important;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        #Calculation .button-wrap .nav-pills .nav-item {
+            width: 29% !important;
+        }
+        #Calculation .button-wrap .title-btn img {
+            width: 100% !important;
+            padding: 10px !important;
+        }
+        #Calculation .button-wrap .nav-pills {
+            display: flex !important;
+            flex-direction: unset !important;
+            align-items: center !important;
+        }
+    }
+    
+    @media only screen and (max-width:376px) {
+        .showw {
+            background-image: url(../resources/img/Group\ 28.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100% !important;
+        }
+        .slidere {
+            position: relative;
+            height: 29vh !important;
+            margin: 4rem 0;
+        }
+        .slidere--el-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-top: 7rem !important;
+            transition: opacity 0.3s;
+            opacity: 0;
+        }
+        .slidere--el-heading h2 {
+            font-size: 22px !important;
+        }
+        .slidere--el-heading span {
+            font-size: 18px !important;
+        }
+        .slidere--control.left {
+            left: 10px !important;
+            text-align: center;
+            padding: 5px 10px !important;
+        }
+        .slidere--control.right {
+            right: 10px !important;
+            text-align: center;
+            padding: 5px 10px !important;
+        }
+        .media-slider .media-video img {
+            width: 100%;
+            height: 218px !important;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .media-video button i {
+            position: relative;
+            top: -50px !important;
+            left: -75px !important;
+            font-size: 15px !important;
+            color: #000;
+            background: #fff;
+            margin: auto;
+            padding: 12px 15px;
+            border-radius: 50%;
+        }
+        .media-text {
+            width: 100%;
+            position: relative;
+            top: -55px !important;
+            left: 15px;
+            margin: 0;
+            padding: 0;
+        }
+        #Media .slick-dots {
+            width: 100%;
+            position: inherit !important;
+            left: 20px !important;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-section .contact-content {
+            position: absolute;
+            z-index: 132141;
+            bottom: 40% !important;
+            left: 22% !important;
+        }
+        #LocationForms .forms form .name-input {
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+            margin: 10px 0;
+        }
+        #LocationForms .forms form label {
+            width: 100% !important;
+            margin: 5px 0px !important;
+        }
+        #LocationForms .forms form .email-input {
+            display: flex;
+            align-items: center;
+            flex-direction: column !important;
+            margin: 10px 0;
+        }
+        #LocationForms .forms {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #0000001a inset;
+        }
+        .oakslider__ui .oakslider__controls {
+            display: flex;
+            margin: 10px 0 !important;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        .map {
+            background-image: url(../resources/img/map-01\ 2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100% !important;
+            height: auto !important;
+            padding: 30px 20px !important;
+            margin: 0 !important;
+            border-radius: 65px 0px 0px 60px;
+        }
+    }

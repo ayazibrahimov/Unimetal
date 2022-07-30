@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="./resources/loader.css">
+    <link rel="stylesheet" href="./resources/responsive.css">
+    <link rel="stylesheet" href="./resources/style.css">
+
+    <title>UNIMETAL</title>
+</head>
+
+<body>
+
+    <section>
+        <nav>
+            <div class="container-fluid">
+                <div class="row nav-item">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+                            <h6>Əsl Metalın Ünvanı</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="page-item">
+                            <a href="about.html">HAQQIMIZDA</a>
+                            <a href="product.html">MƏHSULLAR</a>
+                            <a href="">İSTEHSAL</a>
+                            <a href="desing.html">DİZAYN EDİN</a>
+                            <!-- <a href=""></a> -->
+                            <!-- <div class="dropdown"> -->
+                            <a href="" class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    HESABLA
+                                </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                                <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                            </ul>
+                            <!-- </div> -->
+                            <a href="galery.html">QALERİYA</a>
+                            <a href="news.html">XƏBƏRLƏR</a>
+                            <a href="contact.html">ƏLAQƏ</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="fixed-menu">
+                <div class="fixMenu">
+                    <div class="flag-btn">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                            </button>
+                    </div>
+                    <div class="back-to-top">
+                        <button id="toTop" onclick="topFunction()"><i class="fas fa-chevron-double-up"></i></button>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fas fa-phone-alt"></i></a>
+                        <a href=""><i class="fas fa-envelope"></i></a>
+                        <a class="hoverShare" href=""><i class="fas fa-share-alt"></i></a>
+                        <div class="share-menu">
+                            <div class="whitediv">
+                                <i class="fas fa-at"></i>
+                            </div>
+                            <a href="">info@unimetal.az</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile-navbar Start -->
+        <section id="Index">
+            <div class="hamburger-menu">
+
+                <input id="menu__toggle" type="checkbox" />
+                <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+                <ul class="menu__box">
+                    <li>
+
+                    </li>
+                    <li class="top-logo">
+
+                        <a href="index.html"> <img src="./resources/img/Logo.svg" alt=""></a>
+                        <div class="flag-btn">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                    <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                </button>
+                        </div>
+                    </li>
+                    <li><a class="menu__item" href="about.html">HAQQIMIZDA</a></li>
+                    <li><a class="menu__item" href="product.html">MƏHSULLAR</a></li>
+                    <li><a class="menu__item" href="production.html">İSTEHSAL</a></li>
+                    <li><a class="menu__item" href="desing.html">DİZAYN EDİN</a></li>
+                    <li> <a href="" class="menu__item dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        HESABLA
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                            <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu__item" href="galery.html">QALERİYA</a></li>
+                    <li><a class="menu__item" href="news.html">XƏBƏRLƏR</a></li>
+                    <li><a class="menu__item" href="contact.html">ƏLAQƏ</a></li>
+                    <li class="social-hamburger"> <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fas fa-phone-alt"></i></a>
+                        <a href=""><i class="fas fa-envelope"></i></a>
+                    </li>
+                    <!-- <li>
+                        <div class="basket-img">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#basket" class="basket-btn"><i class="far fa-shopping-cart"></i> Səbət </button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#contact"><i
+                                class="far fa-phone-alt"></i> Əlaqə</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+        <!-- Mobile navbar End -->
+        <div class="oakslider">
+            <div class="oakslider__ui">
+                <div class="oakslider__nav">
+                    <div class="oakslider__navpoint">01
+                        <div class="oakslider__timer">
+                            <div class="timer__progress"></div>
+                        </div> <span class="oakslider__label">ZAVODUMUZ</span></div>
+                    <div class="oakslider__navpoint">02
+                        <div class="oakslider__timer">
+                            <div class="timer__progress"></div>
+                        </div> <span class="oakslider__label">ZAVODUMUZ</span></div>
+                    <div class="oakslider__navpoint">03
+                        <div class="oakslider__timer">
+                            <div class="timer__progress"></div>
+                        </div> <span class="oakslider__label">ZAVODUMUZ</span></div>
+                </div>
+                <div class="oakslider__controls">
+                    <div class="oakslider__arrow oakslider__arrow--left oakslider__prev">
+                        <</div>
+                            <div class="oakslider__arrow oakslider__arrow--right oakslider__next">></div>
+                    </div>
+                </div>
+                <div class="oakslider__slider">
+                    <div class="oakslider__slide slide--active" data-slide="1">
+                        <div class="slide__image">
+                            <div class="overlay">
+                                <img src="./resources/img/Rectangle 83.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide__container">
+                            <div class="slide__content">
+                                <div class="slide__title">ƏSL METAL MƏHSULLAR</div>
+                                <div class="slide__link">TANIDIĞINIZ ÜNVANDA Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolor enim voluptatem veniam odit aliquid magni! Consequuntur optio labore commodi, asperiores eius dicta earum, aut minima saepe nihil
+                                    perferendis ab!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oakslider__slide" data-slide="2">
+                        <div class="slide__image">
+                            <div class="overlay">
+                                <img src="./resources/img/IMG_9436 1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide__container">
+                            <div class="slide__content">
+                                <div class="slide__title">ƏSL METAL MƏHSULLAR </div>
+                                <div class="slide__link">TANIDIĞINIZ ÜNVANDA Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at illo quis quos. Reiciendis asperiores vitae dolores omnis perferendis non dolorem aspernatur repellendus eligendi odio soluta labore, sit
+                                    perspiciatis laudantium!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oakslider__slide" data-slide="3">
+                        <div class="slide__image">
+                            <div class="overlay">
+                                <img src="./resources/img/IMG_9448 (1) 1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="slide__container">
+                            <div class="slide__content">
+                                <div class="slide__title">ƏSL METAL MƏHSULLAR </div>
+                                <div class="slide__link">TANIDIĞINIZ ÜNVANDA Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quidem expedita? Similique hic sint voluptatem debitis mollitia dolorum at eveniet praesentium nisi? Eum eos ea in similique atque, culpa
+                                    quod.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Section Start -->
+    <section id="Show" class="showw">
+        <div class="container">
+            <div class="row pt-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="show-text">
+                        <h1>Xarici xammaldan asılılığı aradan qaldırdıq!</h1>
+                        <p>Ən yaxşı avadanlıqda ən yaxşı boya istifadə edirik.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="showImg">
+                        <img src="./resources/img/_Downloader 1 (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product start -->
+    <section id="Product">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="product-title" style="text-align: center;">
+                        <h1>Məhsullar</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 align-items-center">
+                <div class="col-lg-4">
+                    <div class="product-content">
+                        <h1>Məhsullar bizim tərəfimizdən istehsal edilmişdir</h1>
+                        <span>Ən son texnologiyalara əsaslanan istehsal xətti yüksək keyfiyyətimizin zəmanətçisidir</span>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="a-tag">
+                        <a href="product.html">Hamısına bax</a>
+                    </div>
+                    <div class="product-items">
+                        <div class="slider-card">
+                            <img src="./resources/img/d2211823160d7832a359e9d55834aaee.jpg" alt="">
+                        </div>
+                        <div class="slider-card">
+                            <img src="./resources/img/2d4137b2f14fb4d7fa3bd78eb9b604e8.jpg" alt="">
+                        </div>
+                        <div class="slider-card">
+                            <img src="./resources/img/Rectangle 87.png" alt="">
+                        </div>
+                        <div class="slider-card">
+                            <img src="./resources/img/Rectangle 89.png" alt="">
+                        </div>
+                        <div class="slider-card">
+                            <img src="./resources/img/Rectangle 88.png" alt="">
+                        </div>
+                        <div class="slider-card">
+                            <img src="./resources/img/Rectangle 87.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product End -->
+    <!-- 3D Section End -->
+
+    <!-- Map Section Start -->
+    <section id="Map" class="map">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-5">
+                    <div class="map-content">
+                        <h1>Azərbaycanda və Qafqazda İlk və Tək Rəngli Dəmir İstehsalı Zavodu</h1>
+                        <p><span>Unimetal MMC</span> Azərbaycanda tikinti, maşınqayırma, kənd təsərrüfatı, netf-qaz və digər sahələri üçün yüksək keyfiyyətli künclük, şveller, ikitavr, armatur, katanka, isti və soyuq yayılmış polad lövhələr, sink və polimer
+                            örtüklü rulonlar, polad boru və profillər və yağış suyu sistemlərinin təchizatçısıdır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="Blog" class="blog">
+        <div class="container">
+            <div class="row my-5  blog-title">
+                <div class="col-lg-12">
+                    <h1>Xəbərlər və Yeniliklər</h1>
+                </div>
+            </div>
+            <div class="row my-5 align-items-center">
+                <div class="col-lg-4">
+                    <div class="blog-text">
+                        <h1>Yeni <span>Logomuzla</span> qarşınızdayıq</h1>
+                        <p><span>"Unimetal"</span> Məhdud Məsuliyyətli Cəmiyyəti həmişə yenilik etməyə çalışır. Bu dəfə isə yeni logonu sizə təqdim etmək istəyirik. Müştəri məmnuniyyətini fikirləşən "Unimetal" şirkəti bu dəfə də yeni bir işlə qarşınıza çıxır.</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="a-tag">
+                        <a href="news.html">Hamısına bax</a>
+                    </div>
+                    <div class="blog-content">
+                        <div class="card">
+                            <img src="./resources/img/blog-slider1.png" alt="">
+                        </div>
+                        <div class="card">
+                            <img src="./resources/img/blog-slider2.png" alt="">
+                        </div>
+                        <div class="card">
+                            <img src="./resources/img/image 15.png" alt="">
+                        </div>
+                        <div class="card">
+                            <img src="./resources/img/image 17.png" alt="">
+                        </div>
+                        <div class="card">
+                            <img src="./resources/img/blog-slider-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Services Section Start -->
+    <section id="services">
+        <div class="container">
+            <div class="row my-5 align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- <div class="rotator-cube">
+
+                        <input type="radio" checked id="radio-front" name="select-face" />
+                        <input type="radio" id="radio-left" name="select-face" />
+                        <input type="radio" id="radio-right" name="select-face" />
+                        <input type="radio" id="radio-top" name="select-face" />
+                        <input type="radio" id="radio-bottom" name="select-face" />
+                        <div class="separator"></div>
+                        <div class="space3d">
+                            <div class="_3dbox">
+                                <div class="_3dface _3dface--front">
+                                    <div class="cube-card">
+                                        <img src="./resources/img/Group (9).svg" alt="">
+                                        <span>Məsuliyyət</span>
+                                    </div>
+                                </div>
+                                <div class="_3dface _3dface--top">
+                                    <div class="cube-card">
+                                        <img src="./resources/img/Group (10).svg" alt="">
+                                        <span>Effektivlik</span>
+                                    </div>
+                                </div>
+                                <div class="_3dface _3dface--bottom">
+                                    <div class="cube-card">
+                                        <img src="./resources/img/Group (11).svg" alt="">
+                                        <span>İnteqrasiya</span>
+                                    </div>
+                                </div>
+                                <div class="_3dface _3dface--left">
+                                    <div class="cube-card">
+                                        <img src="./resources/img/Group (12).svg" alt="">
+                                        <span>Operativlik</span>
+                                    </div>
+                                </div>
+                                <div class="_3dface _3dface--right">
+                                    <div class="cube-card">
+                                        <img src="./resources/img/Group (8).svg" alt="">
+                                        <span>Sadəlik</span>
+                                    </div>
+                                </div>
+                                <div class="_3dface _3dface--back">
+                                    <div class="cube-card">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="separator"></div>
+                    </div> -->
+                    <div id="wrapper">
+                        <div class="viewport">
+                            <div class="cube">
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (9).svg" alt="">
+                                        <span>Məsuliyyət</span>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (10).svg" alt="">
+                                        <span>Effektivlik</span>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (11).svg" alt="">
+                                        <span>İnteqrasiya</span>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (12).svg" alt="">
+                                        <span>Operativlik</span>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (8).svg" alt="">
+                                        <span>Sadəlik</span>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="cube-image">
+                                        <img src="./resources/img/Group (14).svg" alt="">
+                                        <span>İnnovativlik</span>
+                                    </div>
+                                </div>
+                                <!-- <div class="side">
+                                    <div class="cube-image active">6</div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="services-text">
+                        <h1>Əsl Metalın Ünvanı</h1>
+                        <p>20+ illik fəaliyyət təcrübəsi ilə Unimetal hər zaman Sizin üçün ən yaxşını təklif edir. Bizim uğurumuzun əsasında dayanan amillərdən biri də bütün müştərilərə individual yanaşma nümayiş etdirməklə, onların biznes hədəflərinə çatmasında
+                            etibarlı və güvənilən partnyor rolunu oynamaqdır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section end -->
+
+    <!-- UnitelSlider Start -->
+    <section id="unimetal" class="unimetal">
+        <div class="slider">
+            <div class="slide">
+                <img src="./resources/img/Group 40.png" alt="">
+                <!-- <div class="slide-text">
+                    <h1>Niyə Unimetal?</h1>
+                    <h3>Xarici xammaldan asılılığı aradan qaldırdıq!</h3>
+                    <div class="category-slide">
+                        <span>Korroziyaya qarşı müqavimət - ƏLA</span>
+                        <span>Boya sabitliyi - ƏLA</span>
+                        <span>Mexaniki təsirlərə davamlılıq - ƏLA</span>
+                        <span>Nəmişlikdən qoruma - ƏLA</span>
+                        <span>Günəşdən qoruma - ƏLA</span>
+                        <span>Estetik qoruma - ƏLA</span>
+                        <span>EU və ГОСТ standartlarına uyğunluq - ƏLA</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="slide">
+                <img src="./resources/img/Group 40.png" alt="">
+                <!-- <div class="slide-text">
+                    <h1>Niyə Unimetal?</h1>
+                    <h3>Xarici xammaldan asılılığı aradan qaldırdıq!</h3>
+                    <div class="category-slide">
+                        <span>Korroziyaya qarşı müqavimət - ƏLA</span>
+                        <span>Boya sabitliyi - ƏLA</span>
+                        <span>Mexaniki təsirlərə davamlılıq - ƏLA</span>
+                        <span>Nəmişlikdən qoruma - ƏLA</span>
+                        <span>Günəşdən qoruma - ƏLA</span>
+                        <span>Estetik qoruma - ƏLA</span>
+                        <span>EU və ГОСТ standartlarına uyğunluq - ƏLA</span>
+                    </div>
+                </div> -->
+            </div>
+            <div class="slide">
+                <img src="./resources/img/Group 40.png" alt="">
+                <!-- <div class="slide-text">
+                    <h1>Niyə Unimetal?</h1>
+                    <h3>Xarici xammaldan asılılığı aradan qaldırdıq!</h3>
+                    <div class="category-slide">
+                        <span>Korroziyaya qarşı müqavimət - ƏLA</span>
+                        <span>Boya sabitliyi - ƏLA</span>
+                        <span>Mexaniki təsirlərə davamlılıq - ƏLA</span>
+                        <span>Nəmişlikdən qoruma - ƏLA</span>
+                        <span>Günəşdən qoruma - ƏLA</span>
+                        <span>Estetik qoruma - ƏLA</span>
+                        <span>EU və ГОСТ standartlarına uyğunluq - ƏLA</span>
+                    </div>
+                </div> -->
+            </div>
+            <ul class="slick-dots" role="tablist">
+                <li class="slick-active" role="presentation">
+                    <button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li>
+                <li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 3" tabindex="-1">2</button></li>
+            </ul>
+        </div>
+    </section>
+    <!-- UnitelSlider End -->
+
+    <!-- Language Modal Start -->
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="language" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Dil Seçin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                <span>Azerbaija</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/turkeyFlag.png" alt="">
+                                <span>Turkey</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Language Modal End-->
+
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row pt-4 pb-2">
+                <div class="col-lg-12">
+                    <div class="footer-logo">
+                        <span>Bakı şəhəri, Z.Bünyadov prospekti 2061</span>
+                        <span>info@unimetal.az</span>
+                        <img src="./resources/img/Group 33.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Loader Start -->
+    <div id="loader-animation">
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1 b3">
+                    <div id="loader-wrap">
+                        <div id="loading">
+                            <div id="loading-center">
+                                <div id="loading-center-absolute">
+                                    <div id="object"><img src="./resources/img/Logo.svg" alt=""></div>
+                                    <div id="loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1">
+                    <div id="block-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <script>
+        // Cubik Animation
+        var events = new Events();
+        events.add = function(obj) {
+            obj.events = {};
+        }
+        events.implement = function(fn) {
+            fn.prototype = Object.create(Events.prototype);
+        }
+
+        function Events() {
+            this.events = {};
+        }
+        Events.prototype.on = function(name, fn) {
+            var events = this.events[name];
+            if (events == undefined) {
+                this.events[name] = [fn];
+                this.emit('event:on', fn);
+            } else {
+                if (events.indexOf(fn) == -1) {
+                    events.push(fn);
+                    this.emit('event:on', fn);
+                }
+            }
+            return this;
+        }
+        Events.prototype.once = function(name, fn) {
+            var events = this.events[name];
+            fn.once = true;
+            if (!events) {
+                this.events[name] = [fn];
+                this.emit('event:once', fn);
+            } else {
+                if (events.indexOf(fn) == -1) {
+                    events.push(fn);
+                    this.emit('event:once', fn);
+                }
+            }
+            return this;
+        }
+        Events.prototype.emit = function(name, args) {
+            var events = this.events[name];
+            if (events) {
+                var i = events.length;
+                while (i--) {
+                    if (events[i]) {
+                        events[i].call(this, args);
+                        if (events[i].once) {
+                            delete events[i];
+                        }
+                    }
+                }
+            }
+            return this;
+        }
+        Events.prototype.unbind = function(name, fn) {
+            if (name) {
+                var events = this.events[name];
+                if (events) {
+                    if (fn) {
+                        var i = events.indexOf(fn);
+                        if (i != -1) {
+                            delete events[i];
+                        }
+                    } else {
+                        delete this.events[name];
+                    }
+                }
+            } else {
+                delete this.events;
+                this.events = {};
+            }
+            return this;
+        }
+
+        var userPrefix;
+
+        var prefix = (function() {
+            var styles = window.getComputedStyle(document.documentElement, ''),
+                pre = (Array.prototype.slice
+                    .call(styles)
+                    .join('')
+                    .match(/-(moz|webkit|ms)-/) || (styles.OLink === '' && ['', 'o'])
+                )[1],
+                dom = ('WebKit|Moz|MS|O').match(new RegExp('(' + pre + ')', 'i'))[1];
+            userPrefix = {
+                dom: dom,
+                lowercase: pre,
+                css: '-' + pre + '-',
+                js: pre[0].toUpperCase() + pre.substr(1)
+            };
+        })();
+
+        function bindEvent(element, type, handler) {
+            if (element.addEventListener) {
+                element.addEventListener(type, handler, false);
+            } else {
+                element.attachEvent('on' + type, handler);
+            }
+        }
+
+        function Viewport(data) {
+            events.add(this);
+
+            var self = this;
+
+            this.element = data.element;
+            this.fps = data.fps;
+            this.sensivity = data.sensivity;
+            this.sensivityFade = data.sensivityFade;
+            this.touchSensivity = data.touchSensivity;
+            this.speed = data.speed;
+
+            this.lastX = 0;
+            this.lastY = 0;
+            this.mouseX = 0;
+            this.mouseY = 0;
+            this.distanceX = 0;
+            this.distanceY = 0;
+            this.positionX = 1122;
+            this.positionY = 136;
+            this.torqueX = 0;
+            this.torqueY = 0;
+
+            this.down = false;
+            this.upsideDown = false;
+
+            this.previousPositionX = 0;
+            this.previousPositionY = 0;
+
+            this.currentSide = 0;
+            this.calculatedSide = 0;
+
+
+            bindEvent(document, 'mousedown', function() {
+                self.down = true;
+            });
+
+            bindEvent(document, 'mouseup', function() {
+                self.down = false;
+            });
+
+            bindEvent(document, 'keyup', function() {
+                self.down = false;
+            });
+
+            bindEvent(document, 'mousemove', function(e) {
+                self.mouseX = e.pageX;
+                self.mouseY = e.pageY;
+            });
+
+            bindEvent(document, 'touchstart', function(e) {
+
+                self.down = true;
+                e.touches ? e = e.touches[0] : null;
+                self.mouseX = e.pageX / self.touchSensivity;
+                self.mouseY = e.pageY / self.touchSensivity;
+                self.lastX = self.mouseX;
+                self.lastY = self.mouseY;
+            });
+
+            bindEvent(document, 'touchmove', function(e) {
+                if (e.preventDefault) {
+                    e.preventDefault();
+                }
+
+                if (e.touches.length == 1) {
+
+                    e.touches ? e = e.touches[0] : null;
+
+                    self.mouseX = e.pageX / self.touchSensivity;
+                    self.mouseY = e.pageY / self.touchSensivity;
+
+                }
+            });
+
+            bindEvent(document, 'touchend', function(e) {
+                self.down = false;
+            });
+
+            setInterval(this.animate.bind(this), this.fps);
+
+        }
+        events.implement(Viewport);
+        Viewport.prototype.animate = function() {
+
+            this.distanceX = (this.mouseX - this.lastX);
+            this.distanceY = (this.mouseY - this.lastY);
+
+            this.lastX = this.mouseX;
+            this.lastY = this.mouseY;
+
+            if (this.down) {
+                this.torqueX = this.torqueX * this.sensivityFade + (this.distanceX * this.speed - this.torqueX) * this.sensivity;
+                this.torqueY = this.torqueY * this.sensivityFade + (this.distanceY * this.speed - this.torqueY) * this.sensivity;
+            }
+
+            if (Math.abs(this.torqueX) > 1.0 || Math.abs(this.torqueY) > 1.0) {
+                if (!this.down) {
+                    this.torqueX *= this.sensivityFade;
+                    this.torqueY *= this.sensivityFade;
+                }
+
+                this.positionY -= this.torqueY;
+
+                if (this.positionY > 360) {
+                    this.positionY -= 360;
+                } else if (this.positionY < 0) {
+                    this.positionY += 360;
+                }
+
+                if (this.positionY > 90 && this.positionY < 270) {
+                    this.positionX -= this.torqueX;
+
+                    if (!this.upsideDown) {
+                        this.upsideDown = true;
+                        this.emit('upsideDown', {
+                            upsideDown: this.upsideDown
+                        });
+                    }
+
+                } else {
+
+                    this.positionX += this.torqueX;
+
+                    if (this.upsideDown) {
+                        this.upsideDown = false;
+                        this.emit('upsideDown', {
+                            upsideDown: this.upsideDown
+                        });
+                    }
+                }
+
+                if (this.positionX > 360) {
+                    this.positionX -= 360;
+                } else if (this.positionX < 0) {
+                    this.positionX += 360;
+                }
+
+                if (!(this.positionY >= 46 && this.positionY <= 130) && !(this.positionY >= 220 && this.positionY <= 308)) {
+                    if (this.upsideDown) {
+                        if (this.positionX >= 42 && this.positionX <= 130) {
+                            this.calculatedSide = 3;
+                        } else if (this.positionX >= 131 && this.positionX <= 223) {
+                            this.calculatedSide = 2;
+                        } else if (this.positionX >= 224 && this.positionX <= 314) {
+                            this.calculatedSide = 5;
+                        } else {
+                            this.calculatedSide = 4;
+                        }
+                    } else {
+                        if (this.positionX >= 42 && this.positionX <= 130) {
+                            this.calculatedSide = 5;
+                        } else if (this.positionX >= 131 && this.positionX <= 223) {
+                            this.calculatedSide = 4;
+                        } else if (this.positionX >= 224 && this.positionX <= 314) {
+                            this.calculatedSide = 3;
+                        } else {
+                            this.calculatedSide = 2;
+                        }
+                    }
+                } else {
+                    if (this.positionY >= 46 && this.positionY <= 130) {
+                        this.calculatedSide = 6;
+                    }
+
+                    if (this.positionY >= 220 && this.positionY <= 308) {
+                        this.calculatedSide = 1;
+                    }
+                }
+
+                if (this.calculatedSide !== this.currentSide) {
+                    this.currentSide = this.calculatedSide;
+                    this.emit('sideChange');
+                }
+
+            }
+
+            this.element.style[userPrefix.js + 'Transform'] = 'rotateX(' + this.positionY + 'deg) rotateY(' + this.positionX + 'deg)';
+
+            if (this.positionY != this.previousPositionY || this.positionX != this.previousPositionX) {
+                this.previousPositionY = this.positionY;
+                this.previousPositionX = this.positionX;
+
+                this.emit('rotate');
+
+            }
+
+        }
+        var viewport = new Viewport({
+            element: document.getElementsByClassName('cube')[0],
+            fps: 20,
+            sensivity: .1,
+            sensivityFade: .93,
+            speed: 1.3,
+            touchSensivity: 1.5
+        });
+
+        function Cube(data) {
+            var self = this;
+
+            this.element = data.element;
+            this.sides = this.element.getElementsByClassName('side');
+
+            this.viewport = data.viewport;
+            this.viewport.on('rotate', function() {
+                self.rotateSides();
+            });
+            this.viewport.on('upsideDown', function(obj) {
+                self.upsideDown(obj);
+            });
+            this.viewport.on('sideChange', function() {
+                self.sideChange();
+            });
+        }
+        Cube.prototype.rotateSides = function() {
+            var viewport = this.viewport;
+            if (viewport.positionY > 90 && viewport.positionY < 270) {
+                this.sides[0].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + (viewport.positionX + viewport.torqueX) + 'deg)';
+                this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 180 + viewport.torqueX) + 'deg)';
+            } else {
+                this.sides[0].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + (viewport.positionX - viewport.torqueX) + 'deg)';
+                this.sides[5].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + -(viewport.positionX + 180 - viewport.torqueX) + 'deg)';
+            }
+        }
+        Cube.prototype.upsideDown = function(obj) {
+
+            var deg = (obj.upsideDown == true) ? '180deg' : '0deg';
+            var i = 5;
+
+            while (i > 0 && --i) {
+                this.sides[i].getElementsByClassName('cube-image')[0].style[userPrefix.js + 'Transform'] = 'rotate(' + deg + ')';
+            }
+
+        }
+        Cube.prototype.sideChange = function() {
+
+            for (var i = 0; i < this.sides.length; ++i) {
+                this.sides[i].getElementsByClassName('cube-image')[0].className = 'cube-image';
+            }
+
+            this.sides[this.viewport.currentSide - 1].getElementsByClassName('cube-image')[0].className = 'cube-image active';
+
+        }
+
+        new Cube({
+            viewport: viewport,
+            element: document.getElementsByClassName('cube')[0]
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./resources/loader.js"></script>
+    <script src="./resources/slider-ok.js"></script>
+    <script src="./resources/slick-slider.js"></script>
+    <script src="./resources/app.js"></script>
+</body>
+
+</html>

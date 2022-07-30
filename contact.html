@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="./resources/loader.css">
+    <link rel="stylesheet" href="./resources/responsive.css">
+    <link rel="stylesheet" href="./resources/style.css">
+
+    <title>UNIMETAL</title>
+</head>
+
+<body>
+
+    <section class="contact-section">
+
+        <div class="overlay"></div>
+
+        <nav>
+            <div class="container-fluid">
+                <div class="row nav-item">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+                            <h6>Əsl Metalın Ünvanı</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="page-item">
+                            <a href="about.html">HAQQIMIZDA</a>
+                            <a href="product.html">MƏHSULLAR</a>
+                            <a href="production.html">İSTEHSAL</a>
+                            <a href="desing.html">DİZAYN EDİN</a>
+                            <a href="" class=" dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                HESABLA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                                <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                            </ul>
+                            <a href="galery.html">QALERİYA</a>
+                            <a href="news.html">XƏBƏRLƏR</a>
+                            <a href="contact.html">ƏLAQƏ</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="fixed-menu">
+                <div class="fixMenu">
+                    <div class="flag-btn">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                            </button>
+                    </div>
+                    <div class="back-to-top">
+                        <button id="toTop" onclick="topFunction()"><i class="fas fa-chevron-double-up"></i></button>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fas fa-phone-alt"></i></a>
+                        <a href=""><i class="fas fa-envelope"></i></a>
+                        <a class="hoverShare" href=""><i class="fas fa-share-alt"></i></a>
+                        <div class="share-menu">
+                            <div class="whitediv">
+                                <i class="fas fa-at"></i>
+                            </div>
+                            <a href="">info@unimetal.az</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile-navbar Start -->
+        <section id="Index">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <a href="index.html"><img src="./resources/img/Logo.svg" alt=""></a>
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+                <ul class="menu__box">
+                    <li class="top-logo">
+
+                        <a href="index.html"> <img src="./resources/img/Logo.svg" alt=""></a>
+                        <div class="flag-btn">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#language"> 
+                                    <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                </button>
+                        </div>
+                    </li>
+                    <li><a class="menu__item" href="index.html">HAQQIMIZDA</a></li>
+                    <li><a class="menu__item" href="product.html">MƏHSULLAR</a></li>
+                    <li><a class="menu__item" href="production.html">İSTEHSAL</a></li>
+                    <li><a class="menu__item" href="desing.html">DİZAYN EDİN</a></li>
+                    <li> <a href="" class="menu__item dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        HESABLA
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="calculation.html">Dam Örtüklərin Hesablanması</a></li>
+                            <li><a class="dropdown-item" href="metalCalculation.html">Metal Kalkulyator</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu__item" href="galery.html">QALERİYA</a></li>
+                    <li><a class="menu__item" href="news.html">XƏBƏRLƏR</a></li>
+                    <li><a class="menu__item" href="contact.html">ƏLAQƏ</a></li>
+                    <li class="social-hamburger"> <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fas fa-phone-alt"></i></a>
+                        <a href=""><i class="fas fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Mobile navbar End -->
+        <div class="contact-content">
+            <h1>Satış Mərkəzləri</h1>
+        </div>
+
+    </section>
+    <div class="container">
+        <div class="row loc">
+            <div class="col-lg-3">
+                <div class="location-contact">
+                    <div class="location-title">
+                        <a id="link1" href="#office" data-toggle="tab"><i class="fas fa-map-marked-alt"></i> Satış mərkəzi-1</a>
+                    </div>
+                    <div class="location-desc">
+                        <span>AZ1054, Bakı şəhəri, Binəqədi rayonu, M.Rəsulzadə ŞTQ, Bakı-Duz</span>
+                    </div>
+                    <div class="location-number">
+                        <span>*5010,(012) 514 3521</span>
+                        <span>(+99450) 225 3500</span>
+                        <span>(+99470) 225 3500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="location-contact">
+                    <div class="location-title">
+                        <a id="link2" href="#rnd" data-toggle="tab"><i class="fas fa-map-marked-alt"></i> Satış mərkəzi-1</a>
+                    </div>
+                    <div class="location-desc">
+                        <span>AZ1054, Bakı şəhəri, Binəqədi rayonu, M.Rəsulzadə ŞTQ, Bakı-Duz</span>
+                    </div>
+                    <div class="location-number">
+                        <span>*5010,(012) 514 3521</span>
+                        <span>(+99450) 225 3500</span>
+                        <span>(+99470) 225 3500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="location-contact">
+                    <div class="location-title">
+                        <a href=""><i class="fas fa-map-marked-alt"></i> Satış mərkəzi-1</a>
+                    </div>
+                    <div class="location-desc">
+                        <span>AZ1054, Bakı şəhəri, Binəqədi rayonu, M.Rəsulzadə ŞTQ, Bakı-Duz</span>
+                    </div>
+                    <div class="location-number">
+                        <span>*5010,(012) 514 3521</span>
+                        <span>(+99450) 225 3500</span>
+                        <span>(+99470) 225 3500</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="location-contact" style="border: none;">
+                    <div class="location-title">
+                        <a href=""><i class="fas fa-map-marked-alt"></i> Satış mərkəzi-1</a>
+                    </div>
+                    <div class="location-desc">
+                        <span>AZ1054, Bakı şəhəri, Binəqədi rayonu, M.Rəsulzadə ŞTQ, Bakı-Duz</span>
+                    </div>
+                    <div class="location-number">
+                        <span>*5010,(012) 514 3521</span>
+                        <span>(+99450) 225 3500</span>
+                        <span>(+99470) 225 3500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- eticet start -->
+    <div class="eticet" style="z-index: 242142134;">
+        <div class="eticet-item">
+            <h3>Əlaqə</h3>
+        </div>
+    </div>
+    <!-- eticet end -->
+
+    <!-- Locatio Section Start -->
+    <section id="LocationForms">
+        <div class="container">
+            <div class="row mt-5 mb-1  py-2 loc-title" style="text-align: end; border-top: 1px solid #0000001F;">
+                <a href="" style="text-decoration: none; color: #4273ED; font-weight: 500; font-size: 20px;">Xəritədə baxın</a>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="forms">
+                        <form action="">
+                            <div class="name-input">
+                                <label for="">Ad
+                                    <input type="text">
+                                </label>
+                                <label for="">Soyad
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div class="email-input">
+                                <label for="">Email
+                                    <input type="text">
+                                </label>
+                                <label for="">Başlıq
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <div class="textarea">
+                                <label for="">Mesaj
+                                </label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <div class="send-message">
+                                    <button><i class="fas fa-envelope-open-text"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <iframe id="map_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24309.919766769097!2d49.88385935!3d40.39245535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1647437188483!5m2!1sru!2s" width="100%" height="470" style="border:0; border-radius: 12px ;"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Map Location start
+        var marker;
+        var map;
+
+        $("#link1").click(function() {
+            changeMarkerPos(40.427442583095456, 49.90195810201529);
+        });
+        $("#link2").click(function() {
+            changeMarkerPos(40.3906470744219, 49.886329136403745);
+        });
+        console.log("link1")
+
+        function initialize() {
+            var styles = [{
+                stylers: [{
+                    saturation: -100
+                }]
+            }];
+            var styledMap = new google.maps.StyledMapType(styles, {
+                name: "Styled Map"
+            });
+            var mapProp = {
+                center: new google.maps.LatLng(40.427442583095456, 49.90195810201529),
+                zoom: 17,
+                panControl: false,
+                zoomControl: false,
+                mapTypeControl: false,
+                scaleControl: true,
+                streetViewControl: false,
+                overviewMapControl: false,
+                rotateControl: true,
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            map = new google.maps.Map(document.getElementById("map_canvas"), mapProp);
+
+            map.mapTypes.set('map_style', styledMap);
+            map.setMapTypeId('map_style')
+
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(40.427442583095456, 49.90195810201529),
+                animation: google.maps.Animation.DROP,
+                icon: 'https://www.kindpng.com/picc/m/152-1522280_pin-location-map-marker-address-pin-icon-png.png',
+            });
+
+            marker.setMap(map);
+            map.panTo(marker.position);
+        }
+
+        function changeMarkerPos(lat, lon) {
+            myLatLng = new google.maps.LatLng(lat, lon)
+            marker.setPosition(myLatLng);
+            map.panTo(myLatLng);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+        // Map Location end
+    </script>
+    <!-- Locatio Section End -->
+    <!-- Modal -->
+    <div class="modal fade" id="language" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Dil Seçin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/flag-round-250 (1).png" alt="">
+                                <span>Azerbaija</span>
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12">
+                            <button class="langBtnSelect" data-bs-dismiss="modal">
+                                <img src="./resources/img/turkeyFlag.png" alt="">
+                                <span>Turkey</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Language Modal End-->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row pt-4 pb-2">
+                <div class="col-lg-12">
+                    <div class="footer-logo">
+                        <span>Bakı şəhəri, Z.Bünyadov prospekti 2061</span>
+                        <span>info@unimetal.az</span>
+                        <img src="./resources/img/Group 33.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Loader Start -->
+    <div id="loader-animation">
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1 b3">
+                    <div id="loader-wrap">
+                        <div id="loading">
+                            <div id="loading-center">
+                                <div id="loading-center-absolute">
+                                    <div id="object"><img src="./resources/img/Logo.svg" alt=""></div>
+                                    <div id="loader"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="res-container">
+            <div class="res-row">
+                <div id="block-1">
+                    <div id="block-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBByp1zFwtmhqM3ibxX-oVAVxi2eaYXlbk&callback=initMap"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./resources/loader.js"></script>
+    <script src="./resources/slider-ok.js"></script>
+    <script src="./resources/app.js"></script>
+</body>
+
+</html>

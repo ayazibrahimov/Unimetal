@@ -1,0 +1,460 @@
+.items-slider-container {
+    // margin: 0 auto;
+    max-width: 100%;
+    margin-top: 25rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* line 19, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+
+/* line 23, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for img {
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* line 27, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container {
+    padding: 30px;
+    position: absolute;
+}
+
+
+/* line 37, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-top {
+    left: 0;
+    top: 0;
+}
+
+
+/* line 41, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-top .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.left-top .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.left-top .item-slide-info-2 {
+    text-align: left;
+}
+
+
+/* line 48, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.center-top {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 0;
+}
+
+
+/* line 53, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-top {
+    top: 0;
+    right: 0;
+}
+
+
+/* line 57, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-top .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.right-top .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.right-top .item-slide-info-2 {
+    text-align: right;
+}
+
+
+/* line 65, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-center {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    left: 0;
+}
+
+
+/* line 69, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-center .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.left-center .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.left-center .item-slide-info-2 {
+    text-align: left;
+}
+
+
+/* line 77, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.center-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* line 81, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-center {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    right: 0;
+}
+
+
+/* line 85, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-center .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.right-center .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.right-center .item-slide-info-2 {
+    text-align: right;
+}
+
+
+/* line 93, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-bottom {
+    bottom: 0;
+    left: 0;
+}
+
+
+/* line 97, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.left-bottom .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.left-bottom .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.left-bottom .item-slide-info-2 {
+    text-align: left;
+}
+
+
+/* line 104, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.center-bottom {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    bottom: 0;
+}
+
+
+/* line 109, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-bottom {
+    bottom: 0;
+    right: 0;
+}
+
+
+/* line 113, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container.right-bottom .item-slide-title,
+.items-slider-container .slider-for .item-informations-container.right-bottom .item-slide-info-1,
+.items-slider-container .slider-for .item-informations-container.right-bottom .item-slide-info-2 {
+    text-align: right;
+}
+
+
+/* line 121, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container .item-slide-title,
+.items-slider-container .slider-for .item-informations-container .item-slide-info-1 {
+    line-height: 1em;
+}
+
+
+/* line 126, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container .item-slide-title {
+    font-size: 40px;
+    font-size: 4rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* line 135, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container .item-slide-info-1 {
+    font-size: 22px;
+    font-size: 2.2rem;
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+
+/* line 144, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-for .item-informations-container .item-slide-info-2 {
+    font-size: 40px;
+    font-size: 4rem;
+    color: #2ebaaf;
+    text-transform: uppercase;
+}
+
+
+/* line 156, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-nav {
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+
+/* line 160, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-nav .slick-slide {
+    position: relative;
+    padding: 0px;
+    // border: 2px solid #000;
+    box-shadow: 0px 4px 45px 0px #00000066;
+}
+
+.items-slider-container .slider-for .slick-slide {
+    width: 1519px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 900;
+    opacity: 1;
+}
+
+.items-slider-container .slider-nav .slick-slide img {
+    margin: 0 auto;
+    filter: grayscale(1);
+}
+
+.items-slider-container .slider-nav .slick-slide {
+    .slider-nav-text {
+        display: none;
+    }
+    .overlay {
+        display: none;
+    }
+}
+
+.items-slider-container .slider-nav .slick-slide.current-slide {
+    .slider-nav-text {
+        display: block;
+    }
+    .overlay {
+        display: block !important;
+    }
+}
+
+
+/* line 170, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-nav .slick-slide {
+    transition: .9s ease;
+}
+
+.items-slider-container .slider-nav .slick-slide:hover {
+    cursor: pointer;
+    .slider-nav-text {
+        display: block;
+    }
+}
+
+.slider-nav {
+    .overlay {
+        position: absolute;
+        z-index: 242242;
+        width: 100%;
+        height: 100%;
+        background: #FF7A0059;
+        opacity: .8;
+    }
+}
+
+.slider-nav {
+    .slider-nav-text {
+        position: absolute;
+        top: 40%;
+        opacity: 1;
+        width: 70%;
+        z-index: 350900;
+        left: 15%;
+        text-align: center;
+        padding: 0;
+        span {
+            color: #fff;
+            font-weight: 500;
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .slider-nav-text {
+        position: absolute;
+        top: 30% !important;
+        opacity: 1;
+        width: 70%;
+        z-index: 350900;
+        left: 15%;
+        text-align: center;
+        padding: 0;
+        span {
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px !important;
+        }
+    }
+}
+
+@media (max-width:769px) {
+    .productionTable {
+        width: 100% !important;
+        margin: auto;
+    }
+    .slider-nav-text {
+        position: absolute;
+        top: 30% !important;
+        opacity: 1;
+        width: 70%;
+        z-index: 350900;
+        left: 15%;
+        text-align: center;
+        padding: 0;
+        span {
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .slider-nav-text {
+        position: absolute;
+        top: 30% !important;
+        opacity: 1;
+        width: 70%;
+        z-index: 350900;
+        left: 15%;
+        text-align: center;
+        padding: 0;
+        span {
+            color: #fff;
+            font-weight: 500;
+            font-size: 10px !important;
+        }
+    }
+}
+
+
+/* line 174, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-nav .slick-slide.current-slide {
+    background-color: transparent;
+}
+
+
+/* line 177, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+
+.items-slider-container .slider-nav .slick-slide.current-slide img {
+    opacity: 1;
+    filter: grayscale(0);
+    box-shadow: 0px 4px 25px 0px #0000001A;
+    .overlay {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    /* line 197, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+    .items-slider-container .slider-for .item-informations-container .item-slide-title {
+        font-size: 71px;
+        font-size: 7.1rem;
+    }
+    /* line 203, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+    .items-slider-container .slider-for .item-informations-container .item-slide-info-1 {
+        font-size: 34px;
+        font-size: 3.4rem;
+    }
+    /* line 209, sass/portlets/items-slider/scss/modules/_items-slider.scss */
+    .items-slider-container .slider-for .item-informations-container .item-slide-info-2 {
+        font-size: 34px;
+        font-size: 3.4rem;
+    }
+}
+
+// TableProduction Section Start
+.tableLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Tlogo {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #fff;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+    }
+    h2 {
+        color: #4273ED;
+        font-weight: 500;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+.table {
+    width: 50%;
+    margin: auto;
+    .right-table-info {
+        background: #4273ED59!important;
+        margin: 10px 0;
+    }
+    .left-table-info {
+        background: #F0F0F1 !important;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.table-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    span {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+// TableProduction Section End
